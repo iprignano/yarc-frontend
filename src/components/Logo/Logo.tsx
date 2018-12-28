@@ -2,7 +2,7 @@ import React from "react";
 
 export const Logo = () => {
   return (
-    <svg width="207px" height="153px" viewBox="0 0 207 153" version="1.1">
+    <svg viewBox="0 0 207 153" version="1.1">
       <defs>
         <linearGradient
           x1="50%"
@@ -11,15 +11,15 @@ export const Logo = () => {
           y2="100%"
           id="lg1"
         >
-          <stop stop-color="#61F0FA" offset="0%" />
-          <stop stop-color="#1CF773" offset="100%" />
+          <stop stopColor="#61F0FA" offset="0%" />
+          <stop stopColor="#1CF773" offset="100%" />
         </linearGradient>
       </defs>
       <g
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g id="Bubble">
           <path
