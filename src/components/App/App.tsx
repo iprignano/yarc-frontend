@@ -1,13 +1,13 @@
 import React from 'react';
-import Logo from '../Logo';
+import Header from '../Header';
 import styles from './styles.module.scss';
 
-const App = () => {
+function App() {
   return (
     <div className={styles.app}>
-      <Logo />
+      <Header />
     </div>
-  )
+  );
 }
 
 export default App;

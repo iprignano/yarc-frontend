@@ -1,0 +1,7 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "function-name": [0],
+    "import-name": [0]
+  }
+}
