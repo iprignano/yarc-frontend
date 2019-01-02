@@ -1,7 +1,22 @@
 {
-  "extends": "tslint-config-airbnb",
+  "extends": ["tslint:recommended", "tslint-react"],
+  "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules"
+  ],
   "rules": {
-    "function-name": [0],
-    "import-name": [0]
+    "quotemark": [true, "single", "jsx-double"],
+    "arrow-parens": false,
+    "ordered-imports": false,
+    "no-shadowed-variable": true,
+    "interface-over-type-literal": false,
+    "jsx-boolean-value": false,
+    "jsx-space-before-trailing-slash": true,
+    "jsx-wrap-multiline": true
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/react-app-env.d.ts",
+      "src/serviceWorker.ts"
+    ]
   }
 }

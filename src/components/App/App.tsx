@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router} from '@reach/router';
+import { Router } from '@reach/router';
 
 import Header from '../Header';
 import Home from '../../pages/Home';

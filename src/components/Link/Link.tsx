@@ -22,12 +22,14 @@ const isActive = ({ isCurrent }: LinkGetProps, className?: string) => {
     : {};
 };
 
+const getProps = (className?: string) => (linkProps: LinkGetProps) => isActive(linkProps, className);
+
 export default function Link(props: LinkProps) {
   const className = props.className;
   return (
     <RouterLink
       {...props}
-      getProps={linkProps => isActive(linkProps, className)}
+      getProps={getProps(className)}
       className={classnames(styles.link, className)}
     />
   );
