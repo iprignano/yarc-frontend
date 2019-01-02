@@ -2,9 +2,9 @@ import React from 'react';
 import {Router} from '@reach/router';
 
 import Header from '../Header';
-import Home from '../Home';
-import SignIn from '../SignIn';
-import NotFound from '../NotFound';
+import Home from '../../pages/Home';
+import SignIn from '../../pages/SignIn';
+import NotFound from '../../pages/NotFound';
 
 import styles from './styles.module.scss';
 
