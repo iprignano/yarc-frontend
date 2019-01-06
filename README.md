@@ -1,17 +1,29 @@
-yarc
+yarc frontend
 ---
 
-## Installation
+![build status](https://travis-ci.org/yarc-app/yarc-frontend.svg?branch=master)
 
-Just run `yarn` in the root folder.
+### Installation
+
+Make sure you have [Node.js](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/en/) installed on your local machine.
+
+To install the project's dependencies, just run
 
 ```
 yarn
 ```
 
-## Running
+### Testing
 
-To run the project in development:
+To run the test suite:
+
+```
+yarn test
+```
+
+### Development
+
+To start the project in development:
 
 ```
 yarn start
