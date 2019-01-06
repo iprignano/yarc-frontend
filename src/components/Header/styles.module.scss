@@ -1,6 +1,7 @@
+@import "../../shared/styles/variables.scss";
+
 .header {
   width: 100%;
-  background-color: #fff;
 }
 
 .content {
@@ -11,6 +12,7 @@
   align-items: center;
   margin: 0 auto;
   padding: 10px 0;
+  border-bottom: 2px solid $grey-300;
 }
 
 .logo {
